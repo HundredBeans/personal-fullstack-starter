@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended",
+    "plugin:nuxt/recommended"
+  ],
+  "rules": {
+    "vue/multi-word-component-name": "off"
+  }
+}
