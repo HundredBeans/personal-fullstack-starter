@@ -1,0 +1,10 @@
+$family: 'Poppins', sans-serif;
+
+@use 'vuetify/settings' with (
+  $body-font-family: 'Poppins',
+  // Button
+  $button-border-radius: 5px,
+  $button-text-letter-spacing: 0.3px,
+  $button-text-transform: none,
+  $button-padding-ratio: 1.25
+);
