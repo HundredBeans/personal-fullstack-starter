@@ -1,5 +1,5 @@
 import { initializeApp, cert, App } from "firebase-admin/app";
-import { getFirestore } from "firebase-admin/firestore";
+import { getFirestore, FieldValue } from "firebase-admin/firestore";
 
 let firebaseInstance: App | null;
 
@@ -19,3 +19,5 @@ const initialize = () => {
 initialize();
 
 export const firestore = getFirestore();
+
+export const timestamp = FieldValue.serverTimestamp;
